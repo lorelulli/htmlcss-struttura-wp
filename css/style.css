@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+
+header {
+    height: 100px;
+    background-color: green;
+    margin: 0 auto;
+
+}
+
+.row {
+    height: 400px;
+    background-color: grey;
+
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+footer {
+    height: 50px;
+    background-color: blue;
+
+}
+
+main {
+    width: 50%;
+    height: 400px;
+    background-color: red;
+    float: left;
+
+}
+
+aside{
+    width: 25%;
+    height: 400px;
+    background-color: pink;
+    float: left;
+}
