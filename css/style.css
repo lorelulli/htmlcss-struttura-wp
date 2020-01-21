@@ -13,7 +13,7 @@
 header {
     height: 100px;
     background-color: green;
-    margin: 0 auto;
+    margin-bottom: 10px;
 
 }
 
@@ -32,15 +32,22 @@ header {
 footer {
     height: 50px;
     background-color: blue;
+    margin-top: 10px;
 
 }
 
 main {
     width: 50%;
     height: 400px;
-    background-color: red;
+    background-color: white;
     float: left;
+    padding: 0px 10px;
 
+}
+
+.content {
+    height: 100%;
+    background-color: violet;
 }
 
 aside{
